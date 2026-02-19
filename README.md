@@ -1,6 +1,8 @@
 # Robotics-Laboratory ME301
 This project course explored introductory robotics in a laboratory environment. The robot used throughout the course is a hexapod robot shown below. Both software (sensor processing, SLAM) and hardware (sensors, actuators, kinematics) were explored through open-loop control, feedback control, reactive control, motion planning, and SLAM.
 
+![alt text](https://github.com/edlee04/Robotics-Laboratory/blob/main/Hexapod.png "Hexapod 1")
+
 ## How the Robot Moves:
 The hexapod robot has 6 legs and 3 servos on each leg, resulting in 18 total DoF. The robot is equipped with sonar sensors, an IMU, and a Raspberry Pi. All programs and algorithms were coded using Python and a provided sdk (ros_robot_controller_sdk).
 
