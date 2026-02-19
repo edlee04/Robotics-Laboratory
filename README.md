@@ -3,6 +3,10 @@ This project course explored introductory robotics in a laboratory environment. 
 
 ![alt text](https://github.com/edlee04/Robotics-Laboratory/blob/main/Hexapod.png "Hexapod 1")
 
+<p align="center">
+  <img width="460" height="300" src="https://github.com/edlee04/Robotics-Laboratory/blob/main/Hexapod.png">
+</p>
+
 ## How the Robot Moves:
 The hexapod robot has 6 legs and 3 servos on each leg, resulting in 18 total DoF. The robot is equipped with sonar sensors, an IMU, and a Raspberry Pi. All programs and algorithms were coded using Python and a provided sdk (ros_robot_controller_sdk).
 
