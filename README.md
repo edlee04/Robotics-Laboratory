@@ -2,7 +2,7 @@
 This project course explored introductory robotics in a laboratory environment. The robot used throughout the course is a hexapod robot shown below. Both software (sensor processing, SLAM) and hardware (sensors, actuators, kinematics) were explored through open-loop control, feedback control, reactive control, motion planning, and SLAM.
 
 <p align="center">
-  <img width="400" height="400" src="https://github.com/edlee04/Robotics-Laboratory/blob/main/Hexapod.png">
+  <img width="250" height="250" src="https://github.com/edlee04/Robotics-Laboratory/blob/main/Hexapod.png">
 </p>
 
 ## How the Robot Moves:
