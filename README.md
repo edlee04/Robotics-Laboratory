@@ -27,7 +27,7 @@ The hexapod must navigate a maze with localization, path planning, and mapping a
 
 Localization is the abiliy to determine position in the maze. The robot is given an initial position and end position. The hexapod will traverse until it reaches the end configuration while continuously updating its internal state. Path planning takes an already existing map with walls/open spaces, and uses wavefront propagation to determine the best path to reach the goal. Wavefront propagation assigns cost values to cells and counts from highest to lowest cost to determine the optimal path. Finally, mapping involves wandering an unknown maze while updating an internal map with walls/open spaces. The hexapod will be placed in a random square and wander around with a depth-first search to explore the entire maze. A sonar sensor is utilized to detect surrounding walls and spaces and updates an internal map to eventually map out the entire maze.
 
-[Project 3 Code]()
+[Project 3 Code](https://github.com/edlee04/Robotics-Laboratory/tree/main/asn2_D)
 
 ## Project 4: Machine Learning and Reinforcement Learning for Pet Following Robot
 The robot will use ML/RL to learn to follow someone as a pet. There are state spaces that describe the distance from the robot to the desired target. The states are determined through sonar readings. Possible actions involve walking forward, walking backward, stopping, and searching. A Q-table is continuously updated based on random actions the robot takes at any state.
