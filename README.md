@@ -8,7 +8,7 @@ This project course explored introductory robotics in a laboratory environment. 
 ## How the Robot Moves:
 The hexapod robot has 6 legs and 3 servos on each leg, resulting in 18 total DoF. The robot is equipped with sonar sensors, an IMU, and a Raspberry Pi. All programs and algorithms were coded using Python and a provided sdk (ros_robot_controller_sdk).
 
-## Project 1: Gait Development for Hexapod Robot
+## [Project 1: Gait Development for Hexapod Robot](https://github.com/edlee04/Robotics-Laboratory/blob/main/asn0_D.py)
 The hexapod robot has a provided SDK with functions to control the joint servos and other electrical components on the robot. By using servo functions, each joint of the servo was characterized with home positions, directionality, and angle limits. Furthermore, the sonar sensor was characterized with readings from various distances.
 
 With each joint tested, three common hexapod gaits were developed: wave, ripple, tripod. Wave moves one leg at time. Ripple gaits move a pair of legs (one of each side) at a time. Tripod gaits move an alternating group of three legs at one time. For each of the gaits, while a leg moves forward, the others should be grounded and pushing back on the ground. This motion maximizes the forward displacement of the body.
