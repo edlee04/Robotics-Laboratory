@@ -13,7 +13,7 @@ The hexapod robot has a provided SDK with functions to control the joint servos 
 
 With each joint tested, three common hexapod gaits were developed: wave, ripple, tripod. Wave moves one leg at time. Ripple gaits move a pair of legs (one of each side) at a time. Tripod gaits move an alternating group of three legs at one time. For each of the gaits, while a leg moves forward, the others should be grounded and pushing back on the ground. This motion maximizes the forward displacement of the body.
 
-[Project 1 Code](https://github.com/edlee04/Robotics-Laboratory/blob/main/asn0_D.py)
+[Project 1 Code](https://github.com/edlee04/Robotics-Laboratory/blob/main/asn0_D.py)<br>
 [Project 1 Report](https://github.com/edlee04/Robotics-Laboratory/blob/main/Reports/ME301%20Lab%200%20Report.pdf)
 
 ## Project 2: Turning Gaits, Reactive Control, and Wall Following Feedback Control for Hexapod Robot
@@ -21,7 +21,7 @@ With the gaits created from the previous project, the walks must now be optimize
 
 Furthermore, reactive control algorithms were designed for case scenarios. For example, if a wall was detected to the left and the front of the robot, the robot will turn to the right.
 
-[Project 2 Code](https://github.com/edlee04/Robotics-Laboratory/blob/main/asn1_D.py)
+[Project 2 Code](https://github.com/edlee04/Robotics-Laboratory/blob/main/asn1_D.py)<br>
 [Project 2 Report](https://github.com/edlee04/Robotics-Laboratory/blob/main/Reports/ME301%20Lab%201%20Report.pdf)
 
 ## Project 3: Localization, Planning, SLAM using Hexapod Robot
@@ -29,7 +29,7 @@ The hexapod must navigate a maze with localization, path planning, and mapping a
 
 Localization is the abiliy to determine position in the maze. The robot is given an initial position and end position. The hexapod will traverse until it reaches the end configuration while continuously updating its internal state. Path planning takes an already existing map with walls/open spaces, and uses wavefront propagation to determine the best path to reach the goal. Wavefront propagation assigns cost values to cells and counts from highest to lowest cost to determine the optimal path. Finally, mapping involves wandering an unknown maze while updating an internal map with walls/open spaces. The hexapod will be placed in a random square and wander around with a depth-first search to explore the entire maze. A sonar sensor is utilized to detect surrounding walls and spaces and updates an internal map to eventually map out the entire maze.
 
-[Project 3 Code](https://github.com/edlee04/Robotics-Laboratory/tree/main/asn2_D)
+[Project 3 Code](https://github.com/edlee04/Robotics-Laboratory/tree/main/asn2_D)<br>
 [Project 3 Code](https://github.com/edlee04/Robotics-Laboratory/blob/main/Reports/ME301%20Lab%20Report%202.pdf)
 
 ## Project 4: Machine Learning and Reinforcement Learning for Pet Following Robot
@@ -37,5 +37,5 @@ The robot will use ML/RL to learn to follow someone as a pet. There are state sp
 
 As the robot continues to perform actions and reward values are updated, the robot will learn the optimal actions to take to appropriately follow a person. For example, through performing several training trials, the robot will learn that if it is too far from the target, it will take a forward step to get closer.
 
-[Project 4 Code](https://github.com/edlee04/Robotics-Laboratory/blob/main/asn3_d.py)
+[Project 4 Code](https://github.com/edlee04/Robotics-Laboratory/blob/main/asn3_d.py)<br>
 [Project 4 Report]()
