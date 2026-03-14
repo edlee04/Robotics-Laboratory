@@ -1,4 +1,4 @@
-# Robotics-Laboratory ME301
+# Robotics Laboratory ME/CS301 - Northwestern University
 This project course explored introductory robotics in a laboratory environment. The robot used throughout the course is a hexapod robot shown below. Both software (sensor processing, SLAM) and hardware (sensors, actuators, kinematics) were explored through open-loop control, feedback control, reactive control, motion planning, and SLAM. All code is written in Python.
 
 <p align="center">
