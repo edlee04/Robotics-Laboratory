@@ -38,4 +38,4 @@ The robot will use ML/RL to learn to follow someone as a pet. There are state sp
 As the robot continues to perform actions and reward values are updated, the robot will learn the optimal actions to take to appropriately follow a person. For example, through performing several training trials, the robot will learn that if it is too far from the target, it will take a forward step to get closer.
 
 [Project 4 Code](https://github.com/edlee04/Robotics-Laboratory/blob/main/asn3_d.py)<br>
-[Project 4 Report]()
+[Project 4 Report](https://github.com/edlee04/Robotics-Laboratory/blob/main/Reports/ME301%20Lab%20Report%203.pdf)
